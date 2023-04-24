@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@openzeppelin/contracts": "^4.8.3",
+    "ganache": "^7.8.0",
+    "hardhat-console": "^1.0.0",
+    "ipfs-http-client": "^60.0.0",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0"
+  },
+  "name": "back-end",
+  "description": "From top level directory /AI-NFT-Minting-App, run the following.\r 4. Install hardhat: npm init -y\r 3. npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers\r 3. npm install --save-dev @nomicfoundation/hardhat-toolbox\r 4. npm install web3 @openzeppelin/contracts",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
